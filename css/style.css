@@ -342,6 +342,8 @@ ol {
 	text-align: center;
 	display: inline-block;
 	margin-right: 60px;
+	width: 60px;
+	height:160px
 }
 
 .icon-box:last-child {
@@ -1436,4 +1438,53 @@ ol {
 	.home-four-style .main-left-area {
 		padding-top: 250px;
 	}
+}
+
+.icon_android{
+	background: url('../img/tools/icons8-android-os-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.icon_firebase{
+	background: url('../img/tools/icons8-firebase-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.icon_arduino{
+	background: url('../img/tools/icons8-arduino-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.icon_matlab{
+	background: url('../img/tools/icons8-matlab-64.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.icon_bash{
+	background: url('../img/tools/icons8-console-50.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+.icon_git{
+	background: url('../img/tools/icons8-git-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
 }
