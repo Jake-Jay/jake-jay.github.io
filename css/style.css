@@ -486,14 +486,36 @@ ol {
 }
 
 /*---------------------
-	Resume section
+	Extra section
 ----------------------*/
-.resume-section.with-bg {
+.extra-section {
 	/* background-image: url(../img/resume-bg.jpg); */
 	/* background-image: url(../img/background_paint.jpg);
 	background-repeat: no-repeat;
 	background-size: cover; */
+	/* background:  */
 	background: #f2f7f8;
+}
+
+
+/*---------------------
+	Resume section
+----------------------*/
+.resume-section.experience {
+	/* background-image: url(../img/resume-bg.jpg); */
+	/* background-image: url(../img/background_paint.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	/* background:  */
+	background: #f2f7f8;
+}
+.resume-section.education {
+	/* background-image: url(../img/resume-bg.jpg); */
+	/* background-image: url(../img/background_paint.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	/* background:  */
+	background: #f9f9f9;
 }
 
 .resume-list {
