@@ -35,7 +35,7 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- Header section start -->
+	<!-- Download buttons-->
 	<header class="header-section">
 		<div class="container-fluid">
 			<div class="row">
@@ -52,10 +52,50 @@
 					<a href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank" class="site-btn">WITS
 						Transcript</a>
 				</div>
+
 			</div>
 		</div>
 	</header>
 	<!-- Header section end -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-logo">
+						<!-- <h2><a href="#">JJP</a></h2>
+						<p>Enhance your online presence</p> -->
+					</div>
+				</div>
+				<div class="col-md-8 text-md-right header-buttons">
+					<button class="learn-more">
+						<div class="circle">
+							<span class="icon arrow"></span>
+						</div>
+						<p href="./documents/CV.pdf" target="_blank"
+							class="button-text">Download CV</p>
+					</button>
+					<button class="learn-more">
+						<div class="circle">
+							<span class="icon arrow"></span>
+						</div>
+						<p href="./documents/UCT_AcademicTranscript_JakePencharz.pdf" target="_blank"
+							class="button-text">UCT
+							Transcript</p>
+					</button>
+					<button class="learn-more">
+						<div class="circle">
+							<span class="icon arrow"></span>
+						</div>
+						<p href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank"
+							class="button-text">WITS
+							Transcript</p>
+					</button>
+
+				</div>
+
+			</div>
+		</div>
+	</header>
 
 	<!-- Hero section start -->
 	<section class="hero-section spad">
@@ -98,10 +138,11 @@
 				<div class="col-xl-10 offset-xl-1">
 					<div class="social-link-warp">
 						<div class="social-links">
-							<a target="_blank" href="https://bitbucket.org/%7Bcf9a2f02-cc53-44b9-85be-b02f1096bc17%7D/"><i
+							<a target="_blank"
+								href="https://bitbucket.org/%7Bcf9a2f02-cc53-44b9-85be-b02f1096bc17%7D/"><i
 									class="fa fa-bitbucket"></i></a>
 							<a target="_blank" href="https://www.linkedin.com/in/jake-pencharz-ba764b12a"><i
-									class="fa fa-linkedin" ></i></a>
+									class="fa fa-linkedin"></i></a>
 						</div>
 						<h2 class="hidden-md hidden-sm">Some links</h2>
 					</div>
@@ -111,7 +152,7 @@
 	</div>
 	<!-- Social links section end -->
 
-	<!-- Resume section start -->
+	<!-- EXPERIENCE -->
 	<section class="resume-section spad">
 		<div class="container-fluid">
 			<div class="row">
@@ -146,9 +187,9 @@
 			</div>
 		</div>
 	</section>
-	<!-- Resume section end -->
+	<!-- Experience end -->
 
-	<!-- Resume section start -->
+	<!-- EDUCATION -->
 	<section class="resume-section with-bg spad">
 		<div class="container-fluid">
 			<div class="row">
@@ -177,17 +218,25 @@
 								studing courses like embedded system design and signal processing.
 							</p>
 						</li>
+						<li>
+							<h2>2008-2012</h2>
+							<h3>High School</h3>
+							<h4>King David Victory Park </h4>
+							<p>Graduated with 10 distinctions, including Advanced Programme Mathematics, and Visual Arts.
+
+								
+							</p>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Resume section end -->
+	<!-- Education end -->
 
 
 
-	<!-- Review section end -->
-
+	<!-- LANGUAGES - SKILLS -->
 	<section class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
@@ -204,7 +253,7 @@
 						</li>
 						<li>HTML <div class="lan-prog" data-lanprogesss="3"></div>
 						</li>
-						<li>Javascript <div class="lan-prog" data-lanprogesss="3"></div>
+						<li>Javascript <div class="lan-prog" data-lanprogesss="2"></div>
 						</li>
 						<li>CSS <div class="lan-prog" data-lanprogesss="2"></div>
 						</li>
@@ -240,14 +289,19 @@
 							<span class="icon_git"></span>
 							<p>Git</p>
 						</div>
+						<div class="icon-box">
+							<span class="icon_postgres"></span>
+							<p>PostreSQL</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 	</section>
+	<!-- Language end -->
 
-	<!-- Interests -->
+	<!-- INTERESTS -->
 	<section class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
@@ -275,6 +329,7 @@
 		</div>
 
 	</section>
+	<!-- Interests end -->
 
 
 	<!-- Extra section start -->
@@ -332,7 +387,62 @@
 	</section>
 	<!-- Extra section end -->
 
-	<!-- Proud moments -->
+	<!-- PROJECTS -->
+	<section class="portfolio-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-4 col-md-8 offset-xl-2 ">
+					<div class="section-title">
+						<h2>Projects</h2>
+					</div>
+				</div>
+				<!-- <div class="col-md-4 text-md-right">
+					<a href="#" class="site-btn mb-5">See All Portfolio</a>
+				</div> -->
+			</div>
+			<div class="portfolio-warp">
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/diving.jpg" class="set-bg port-pic" data-setbg="img/projects/lena_layers.gif"></a>
+							<h2>Steganography Experiments</h2>
+							<p>A simple implementation of data hiding. Exploiting the fact that a pixels least significant bit contains not relevant (visible) information, LSB substitution was used to embed the entire first chapter of The Fellowship of the Ring into an image.</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<iframe 
+								class="set-bg port-pic"
+								width="100%"
+								src="https://www.youtube.com/embed/pdfqpK2md8M" 
+								frameborder="0" 
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+								allowfullscreen></iframe>
+							<h2>Parkinsons Disease Diagnosis Device</h2>
+							<p>A glove with an accelerometer mounted on the back used to help diagnose Parkinsons disease. Many patients who suffer from this disease tend to tremmor at a recognisable frequency. By analysing the signal generated by the glove in real time, this marker frequency can be checked for.</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/mars_amp1.jpg" class="set-bg port-pic" data-setbg="img/projects/hand_gesture.jpg"></a>
+							<h2>Nueral Machine Translation: English to South African Sign Language</h2>
+							<p>Final year project at UCT. Much of the South African deaf community are illeterate. To afford this community equal rights, they should be communicated with in their language of choice (SASL).  </p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/mars_amp2.jpg" class="set-bg port-pic" data-setbg="img/projects/watsapp_bot.jpeg"></a>
+							<h2>Multilingual Watsapp Group</h2>
+							<p>This Watsapp group used the Google Translate API to allow every member in a watsapp group to commincate in their language of choice. This was a one day project made in collaboration with the team at <a href="https://kandua.com">Kandua</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Projects end -->
+
+	<!-- PROUD MOMENTS -->
 	<section class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
@@ -379,8 +489,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Portfolio section end -->
-
+	<!-- Proud moments end -->
 
 
 	<!-- Contact section start -->
