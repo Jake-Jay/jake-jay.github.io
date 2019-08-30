@@ -671,7 +671,8 @@ a.wiggle-button:hover {
 	position: relative;
 }
 
-.portfolio-item .port-pic:after {
+/* Some CSS to get a sliding thing over the images */
+/* .portfolio-item .port-pic:after {
 	position: absolute;
 	content: '';
 	left: 0;
@@ -690,6 +691,12 @@ a.wiggle-button:hover {
 	opacity: 0.8;
 	height: 100%;
 	top: 0;
+} */
+
+.portfolio-item:hover  {
+	opacity: 0.8;
+	height: 100%;
+	top: 00;
 }
 
 /*---------------------
