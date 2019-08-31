@@ -35,27 +35,26 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- Download buttons-->
-	<header class="header-section">
+	<!-- Hyperlink Section -->
+	<div class="hyperlink-section hidden-sm hidden-md">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
-					<div class="site-logo">
-						<!-- <h2><a href="#">JJP</a></h2>
-						<p>Enhance your online presence</p> -->
-					</div>
-				</div>
-				<div class="col-md-8 text-md-right header-buttons">
-					<a href="./documents/CV.pdf" target="_blank" class="wiggle-button" >Download CV</a>
-					<a href="./documents/UCT_AcademicTranscript_JakePencharz.pdf" target="_blank" class="wiggle-button">UCT
-						Transcript</a>
-					<a href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank" class="wiggle-button">WITS
-						Transcript</a>
-				</div>
+				<div class="col-xl-10  offset-xl-1 ">
 
+					<i class="icon_jake"></i>
+					<a href="#sec_projects" class="hyperlink">Projects</a>
+					<a href="#sec_proud_moments" class="hyperlink">Proud Moments</a>
+					<a href="#sec_experience" class="hyperlink">Work Experience</a>
+					<a href="#sec_education" class="hyperlink">Education</a>
+					<a href="#sec_skills" class="hyperlink">Skills</a>
+					<a href="#sec_contact" class="hyperlink">Contact</a>
+
+				</div>
 			</div>
 		</div>
-	</header>
+	</div>
+
+
 
 	<!-- Hero section start -->
 	<section class="hero-section spad">
@@ -91,6 +90,24 @@
 	</section>
 	<!-- Hero section end -->
 
+	<!-- Download buttons-->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1 header-buttons">
+					<a href="./documents/CV.pdf" target="_blank" class="wiggle-button">Download CV</a>
+					<a href="./documents/UCT_AcademicTranscript_JakePencharz.pdf" target="_blank"
+						class="wiggle-button">UCT
+						Transcript</a>
+					<a href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank"
+						class="wiggle-button">WITS
+						Transcript</a>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
 	<!-- Social links section start -->
 	<div class="social-section">
 		<div class="container-fluid">
@@ -112,13 +129,15 @@
 	</div>
 	<!-- Social links section end -->
 
+
+
 	<!-- PROJECTS -->
 	<section class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-4 col-md-8 offset-xl-2 ">
 					<div class="section-title">
-						<h2>Projects</h2>
+						<h2 id="sec_projects">Projects</h2>
 					</div>
 				</div>
 				<!-- <div class="col-md-4 text-md-right">
@@ -132,9 +151,10 @@
 							<a href="img/diving.jpg" class="set-bg port-pic"
 								data-setbg="img/projects/lena_layers.gif"></a>
 							<h2>Steganography Experiments</h2>
-							<p>A simple implementation of data hiding. Exploiting the fact that a pixels least
-								significant bit contains not relevant (visible) information, LSB substitution was used
-								to embed the entire first chapter of The Fellowship of the Ring into an image.</p>
+							<p>A simple implementation of data hiding. Exploiting the fact that no visible information
+								is contained in a pixel's least
+								bit (LSB), these bits are substituted with other information. This technique allowed us
+								to embed the entire first chapter of The Fellowship of the Ring into one image.</p>
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-6 col-md-6">
@@ -154,10 +174,11 @@
 						<div class="portfolio-item">
 							<a href="img/mars_amp1.jpg" class="set-bg port-pic"
 								data-setbg="img/projects/hand_gesture.jpg"></a>
-							<h2>Nueral Machine Translation: English to South African Sign Language</h2>
-							<p>Final year project at UCT. Much of the South African deaf community are illeterate. To
+							<h2>Nueral Machine Translation: English to SASL</h2>
+							<p>My final year project at UCT. Much of the South African deaf community are illeterate. To
 								afford this community equal rights, they should be communicated with in their language
-								of choice (SASL). </p>
+								of choice, South African Sign Language (SASL). This tool will help bridge the
+								communication gap between the deaf and hearing communities in South Africs.</p>
 						</div>
 					</div>
 					<div class="col-xl-3 col-lg-6 col-md-6">
@@ -182,7 +203,7 @@
 			<div class="row">
 				<div class="col-xl-4 col-md-8 offset-xl-2 ">
 					<div class="section-title">
-						<h2>Proud Moments</h2>
+						<h2 id="sec_proud_moments">Proud Moments</h2>
 					</div>
 				</div>
 				<!-- <div class="col-md-4 text-md-right">
@@ -231,7 +252,7 @@
 			<div class="row">
 				<div class="col-xl-7 offset-xl-2">
 					<div class="section-title">
-						<h2>Work Experience</h2>
+						<h2 id="sec_experience">Work Experience</h2>
 					</div>
 					<ul class="resume-list">
 						<li>
@@ -268,7 +289,7 @@
 			<div class="row">
 				<div class="col-xl-7 offset-xl-2">
 					<div class="section-title">
-						<h2>Education</h2>
+						<h2 id="sec_education">Education</h2>
 					</div>
 					<ul class="resume-list">
 						<li>
@@ -308,15 +329,13 @@
 	</section>
 	<!-- Education end -->
 
-
-
 	<!-- LANGUAGES - SKILLS -->
 	<section class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-4 offset-xl-2">
 					<div class="section-title">
-						<h2>Languages</h2>
+						<h2 id="sec_skills">Languages</h2>
 					</div>
 					<ul class="language-progress">
 						<li>C++ <div class="lan-prog" data-lanprogesss="4"></div>
@@ -405,7 +424,6 @@
 	</section> -->
 	<!-- Interests end -->
 
-
 	<!-- Extra section start -->
 	<section class="extra-section spad pb-0">
 		<div class="container-fluid">
@@ -461,16 +479,13 @@
 	</section>
 	<!-- Extra section end -->
 
-
-
-
 	<!-- Contact section start -->
 	<section class="contact-section spad">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-8 offset-xl-2">
 					<div class="section-title">
-						<h2>Contact Me</h2>
+						<h2 id="sec_contact">Contact Me</h2>
 					</div>
 					<form class="contact-form">
 						<div class="row">
@@ -501,9 +516,9 @@
 			<div class="copyright">
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				Copyright &copy;
-				<script>document.write(new Date().getFullYear());</script> | All rights reserved | Page design based on template
-				 by <a href="https://colorlib.com"
-					target="_blank">Colorlib</a>
+				<script>document.write(new Date().getFullYear());</script> | All rights reserved | Page design based on
+				template
+				by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</div>
 		</div>
