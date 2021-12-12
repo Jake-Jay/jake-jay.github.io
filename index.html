@@ -47,7 +47,6 @@
 						<a href="#sec_experience" class="hyperlink">Work Experience</a>
 						<a href="#sec_education" class="hyperlink">Education</a>
 						<a href="#sec_skills" class="hyperlink">Skills</a>
-						<a href="#sec_contact" class="hyperlink">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -71,10 +70,10 @@
 								<h2>General Info</h2>
 								<ul>
 									<li><span>Date of Birth</span>8 Dec, 1994</li>
-									<li><span>Address</span>6 Queen Rd, Rondebosch</li>
-									<li><span></span>Cape Town, South Africa</li>
+									<li><span>Address</span>Fuggerstr. 1</li>
+									<li><span></span>Munich, Germany</li>
 									<li><span>E-mail</span>jake.jay.p@gmail.com</li>
-									<li><span>Phone </span>(+27)83 8954595</li>
+									<li><span>Phone </span>(+49) 1520 6247563</li>
 								</ul>
 							</div>
 						</div>
@@ -96,11 +95,14 @@
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1 header-buttons">
 					<a href="./documents/CV.pdf" target="_blank" class="wiggle-button">Download CV</a>
+					<a href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank"
+						class="wiggle-button">WITS
+						Transcript</a>
 					<a href="./documents/UCT_AcademicTranscript_JakePencharz.pdf" target="_blank"
 						class="wiggle-button">UCT
 						Transcript</a>
-					<a href="./documents/WITS_AcademicTranscript_JakePencharz.pdf" target="_blank"
-						class="wiggle-button">WITS
+					<a href="./documents/TUM_AcademicTranscript_JakePencharz.pdf" target="_blank"
+						class="wiggle-button">TUM
 						Transcript</a>
 				</div>
 
@@ -120,6 +122,8 @@
 									class="fa fa-bitbucket"></i></a>
 							<a target="_blank" href="https://www.linkedin.com/in/jake-pencharz-ba764b12a"><i
 									class="fa fa-linkedin"></i></a>
+
+							<a href="https://github.com/Jake-Jay"class="fa fa-github"></i></a></a>
 						</div>
 						<h2 class="hidden-md hidden-sm">Some links</h2>
 					</div>
@@ -140,24 +144,66 @@
 						<h2 id="sec_projects">Projects</h2>
 					</div>
 				</div>
-				<!-- <div class="col-md-4 text-md-right">
-					<a href="#" class="site-btn mb-5">See All Portfolio</a>
-				</div> -->
+
 			</div>
 			<div class="portfolio-warp">
 				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="col-xl-3 col-lg-3 col-md-3">
 						<div class="portfolio-item">
 							<a href="img/projects/lena_layers.gif" class="set-bg port-pic"
 								data-setbg="img/projects/lena_layers.gif"></a>
 							<h2>Steganography Experiments</h2>
-							<p>A simple implementation of data hiding. Exploiting the fact that no visible information
+							
+							<p>
+								<a href="https://bitbucket.org/snake_in_the_grass/eee4114f_steganographyproject/src/master/" class="fa fa-bitbucket"> </a>
+								A simple implementation of data hiding. Exploiting the fact that no visible information
 								is contained in a pixel's least
 								bit (LSB), these bits are substituted with other information. This technique allowed us
-								to embed the entire first chapter of The Fellowship of the Ring into one image.</p>
+								to embed the entire first chapter of The Fellowship of the Ring into one image.
+							</p>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="col-xl-3 col-lg-3 col-md-3">
+						<div class="portfolio-item">
+							<a href="img/projects/hand_gesture.jpeg" class="set-bg port-pic"
+								data-setbg="img/projects/hand_gesture.jpeg"></a>
+							<h2>Nueral Machine Translation</h2>
+							<p> <a href="https://bitbucket.org/snake_in_the_grass/translationmodels/src/master/" class="fa fa-bitbucket"></a>
+
+								My final year project at UCT. Much of the South African deaf community are illeterate. To
+								afford this community equal rights, they should be communicated with in their language
+								of choice, South African Sign Language (SASL). A tool that can translate from English to SASL
+								would help bridge the communication gap between the deaf and hearing communities in South Africs.
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3">
+						<div class="portfolio-item">
+							<a href="img/projects/boccioni.gif" class="set-bg port-pic"
+								data-setbg="img/projects/boccioni.gif"></a>
+							<h2>Nueral Style Transfer</h2>
+							<p> <a href=https://github.com/Jake-Jay/StyleNeRF_pl class="fa fa-github"></a>
+								An extension of NeRF (Neural Radiance Fields) to apply 3D style transfer using pytorch (pytorch-lightning). 
+								The Neural Style algorithm is based on the loss network proposed by Leon A. Gatys, Alexander S. Ecker and Matthias Bethge.
+								Our implementation takes advantage of the way that NeRF isolates the scene's density in a 'head' of 
+								the model which is seperate from the 'head' of the model that generates the view dependent color. 
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3">
+						<div class="portfolio-item">
+							<a href="img/projects/mbon.jpg" class="set-bg port-pic"
+								data-setbg="img/projects/mbon.jpg"></a>
+							<h2>Modelling The Mushroom Body</h2>
+							<p> <a href=https://github.com/Jake-Jay/mushroom-body-models class="fa fa-github"></a>
+								Several model are explored to determine the relationship between dopaminergic neurons
+								and mushroom body output neurons (MBONs) in the fruit fly mushroom body. This brain area 
+								is essential for forming associative memories related to odors and could shed light on
+								memory mechanims in general. Image from <a href="https://elifesciences.org/articles/62576">Li et al.</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3">
 						<div class="portfolio-item">
 							<iframe class="set-bg port-pic" width="100%" src="https://www.youtube.com/embed/pdfqpK2md8M"
 								frameborder="0"
@@ -170,18 +216,7 @@
 								frequency can be checked for.</p>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<div class="portfolio-item">
-							<a href="img/projects/hand_gesture.jpeg" class="set-bg port-pic"
-								data-setbg="img/projects/hand_gesture.jpeg"></a>
-							<h2>Nueral Machine Translation: English to SASL</h2>
-							<p>My final year project at UCT. Much of the South African deaf community are illeterate. To
-								afford this community equal rights, they should be communicated with in their language
-								of choice, South African Sign Language (SASL). This tool will help bridge the
-								communication gap between the deaf and hearing communities in South Africs.</p>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="col-xl-3 col-lg-3 col-md-3">
 						<div class="portfolio-item">
 							<a href="img/projects/watsapp_bot.jpeg" class="set-bg port-pic"
 								data-setbg="img/projects/watsapp_bot.jpeg"></a>
@@ -257,12 +292,61 @@
 					</div>
 					<ul class="resume-list">
 						<li>
+							<h2>2021 - present </h2>
+							<h3>Bayer AG.</h3>
+							<h4>Machine Learning Research Intern</h4>
+							<p>  
+								Working as a research engineer in Bayer's Machine Learning Research Group I 
+								have contributed to the development of (soon to be) open source Python tools, 
+								and semantic segmentation models aimed at Digital Pathology use cases. 
+								The project falls under a broader explainable AI program and by working 
+								closely with expert pathologists, aims to deliver and visualise the model's 
+								predictions in the most useful format possible.
+							</p>
+						</li>
+						<li>
+							<h2>2021 (4 months) </h2>
+							<h3>Max Planck Institute for Brain Research.</h3>
+							<h4>Computational Neuroscience Intern</h4>
+							<p> Working in the <a href="https://brain.mpg.de/research/computation-in-neural-circuits-group.html">Computation in Neural Circuits Group</a> 
+								supervised by Shuai Shao and 
+								Julijana Gjorgjieva. I worked on modelling the relationship between dopaminergic 
+								neurons and Mushroom body output neurons in the Drosophila mushroom body. I built and 
+								compared linear models and a recurrent model of the circuit. The results were 
+								compared to recently published connectomics data.
+							</p>
+						</li>
+						<li>
+							<h2>2021 (2 months) </h2>
+							<h3>Technical University of Munich - Institute for Cognitive Systems</h3>
+							<h4>Research Assistant</h4>
+							<p> Wrote tutorials for a course on Brain Computer Interfaces using EEG (g.tec Unicorn Hybrid Black). 
+								The tutorials included using the Unicorn C API to log data to the lab streaming layer (C++), 
+								filtering techniques, visualisation, and a primer on motor imagery. These tutorials were 
+								used as a crash course for students competing in the BR41N.IO Hackathon (where I competed with my team as well).
+							</p>
+						</li>
+						<li>
+							<h2>2020 (9 months) </h2>
+							<h3>Isazi Consulting</h3>
+							<h4>Software Engineer and Researcher</h4>
+							<p> <a href="https://www.isaziconsulting.co.za/">Isazi</a> is a small but prominent
+								company in Johannesburg that specialises in
+								machine learning and optimisation. I was tasked with building a data curation pipeline 
+								to generate, tag, and manage new training datasets that would be used to tune their 
+								optical character recognition (OCR) system. While there, I:
+								Designed and built a PostgreSQL database to ingest and store image data;
+								built a RESTful API with Python (Flask) and a frontend with Vue.js to interact with the database; 
+								generated synthetic handwriting data;
+								retrained image classification models on curated datasets boosting performance by ≈10 %;
+								worked with a multidisciplinary team of data engineers, mathematicians, and software engineers.
+							</p>
+						</li>
+						<li>
 							<h2>2018/2019 </h2>
 							<h3>Isazi Consulting</h3>
 							<h4>Intern</h4>
-							<p> <a href="https://www.isaziconsulting.co.za/">Isazi</a> is a small but prominent data
-								analytics company in Johannesburg that specialises in
-								machine learning and optimisation. I spent eight weeks there working as a an intern
+							<p> I spent eight weeks at Isazi working as a an intern
 								software developer. I worked on two projects while I was there. The first was an Android
 								Application that would be used as a data labelling tool. The second project involved
 								developing a website, also for data labelling, using Python on the backend and Vue.js
@@ -294,6 +378,14 @@
 					</div>
 					<ul class="resume-list">
 						<li>
+							<h2>2020-2022</h2>
+							<h3>MSc Neuroengineering</h3>
+							<h4>Technical University of Munich</h4>
+							<p> The program is interdisciplinary and combines experimental and theoretical neuroscience
+								with profound training in engineering. I have focused my electives around building a 
+								strong mathematical grounding and exploring deep learning with some focus on computer vision.</p>
+						
+						<li>
 							<h2>2016-2019</h2>
 							<h3>BSc Eng Electrical and Computer Engineering</h3>
 							<h4>University of Cape Town</h4>
@@ -310,7 +402,7 @@
 								enjoyed the balance of all these subjects.</p>
 							<br>
 							<p>
-								I managed to maintain a GPA of over 80 % for the duration of
+								I maintained a GPA of over 80 % for the duration of
 								the degree.
 							</p>
 						</li>
@@ -336,8 +428,8 @@
 							<h2>2008-2012</h2>
 							<h3>High School</h3>
 							<h4>King David Victory Park </h4>
-							<p>Graduated with 10 distinctions, including (my favourites) Advanced Programme Mathematics, and Visual
-								Arts. I was also actively involved in school sports, and arts and culture.
+							<p>Graduated with 10 distinctions, including Advanced Programme Mathematics, and Visual
+								Arts. I was also actively involved in school sports, and the public speaking team.
 
 							</p>
 						</li>
@@ -357,23 +449,18 @@
 						<h2 id="sec_skills">Languages</h2>
 					</div>
 					<ul class="language-progress">
-						<li>C++ <div class="lan-prog" data-lanprogesss="4"></div>
-						</li>
-						<li>Java <div class="lan-prog" data-lanprogesss="4"></div>
-						</li>
-						<li>Python <div class="lan-prog" data-lanprogesss="4"></div>
-						</li>
-						<li>HTML <div class="lan-prog" data-lanprogesss="3"></div>
-						</li>
-						<li>Javascript <div class="lan-prog" data-lanprogesss="2"></div>
-						</li>
+						<li>Python <div class="lan-prog" data-lanprogesss="4"></div></li>
+						<li>C++ <div class="lan-prog" data-lanprogesss="4"></div></li>
+						<li>HTML <div class="lan-prog" data-lanprogesss="3"></div></li>
+						<li>Javascript <div class="lan-prog" data-lanprogesss="3"></div></li>
 						<li>CSS <div class="lan-prog" data-lanprogesss="2"></div>
+						<li>Java <div class="lan-prog" data-lanprogesss="2"></div></li>
 						</li>
 					</ul>
 				</div>
 				<div class="col-xl-4 pt-5 pt-lg-0">
 					<div class="section-title">
-						<h2>Tools</h2>
+						<h2>Tools and Frameworks</h2>
 					</div>
 					<div class="icon-box-area">
 
@@ -412,138 +499,7 @@
 
 	</section>
 	<!-- Language end -->
-
-	<!-- INTERESTS -->
-	<!-- <section class="portfolio-section spad pb-0">
-		<div class="container-fluid">
-			<div class="row">
-
-				<div class="col-xl-4 offset-xl-2">
-					<div class="section-title">
-						<h2>Interests</h2>
-					</div>
-					<div class="icon-box-area">
-						<div class="icon-box">
-							<i class="flaticon-022-hiking"></i>
-							<p>Hiking</p>
-						</div>
-						<div class="icon-box">
-							<i class="flaticon-001-yoga"></i>
-							<p>Yoga</p>
-						</div>
-						<div class="icon-box">
-							<i class="flaticon-035-tent"></i>
-							<p>Camping</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section> -->
-	<!-- Interests end -->
-
-	<!-- Extra section start -->
-	<section class="extra-section spad pb-0">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-8 offset-xl-2">
-					<div class="section-title">
-						<h2>Extra Skills</h2>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6 pt-5">
-							<div class="fact-box trans">
-								<div class="fact-content">
-									<div class="circle-progress">
-										<div id="progress1" class="prog-circle"></div>
-										<div class="progress-info">
-											<h2>75%</h2>
-										</div>
-										<div class="prog-title">
-											<h3>Public Speaking</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 pt-5">
-							<div class="fact-box trans">
-								<div class="fact-content">
-									<div class="circle-progress">
-										<div id="progress2" class="prog-circle"></div>
-										<div class="progress-info">
-											<h2>80%</h2>
-										</div>
-										<div class="prog-title">
-											<h3>Creativity</h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- <div class="col-lg-3 col-md-6">
-							<div class="fact-box">
-								<div class="fact-content">
-									<img src="img/icon/2-w.png" alt="">
-									<h2>9</h2>
-									<p>Awards Won</p>
-								</div>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Extra section end -->
-
-	<!-- Contact section start -->
-	<section class="contact-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-8 offset-xl-2">
-					<div class="section-title">
-						<h2 id="sec_contact">Contact Me</h2>
-					</div>
-					<form class="contact-form">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" placeholder="Name">
-							</div>
-							<div class="col-md-6">
-								<input type="text" placeholder="E-mail">
-							</div>
-							<div class="col-md-12">
-								<input type="text" placeholder="Subject">
-								<textarea placeholder="Message"></textarea>
-							</div>
-						</div>
-						<div class="text-md-right">
-							<a class="wiggle-button">Send message</a>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Contact section end -->
-
-	<!-- Footer section start -->
-	<footer class="footer-section">
-		<div class="container text-center">
-			<div class="copyright">
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Copyright &copy;
-				<script>document.write(new Date().getFullYear());</script> | All rights reserved | Page design based on
-				template
-				by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
-
+	
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-2.1.4.min.js"></script>

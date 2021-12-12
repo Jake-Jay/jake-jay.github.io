@@ -1549,6 +1549,24 @@ a.hyperlink:hover{
 	}
 }
 
+.icon_bitbucket{
+	background: url('../img/tools/bitbucket-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
+.icon_github{
+	background: url('../img/tools/github-48.png');
+	background-size: cover;
+	margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
 .icon_android{
 	background: url('../img/tools/icons8-android-os-48.png');
 	background-size: cover;
